@@ -30,3 +30,9 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# purescript
+/output/
+/.psc-ide-port
+/.purs-repl
+/.spago/
