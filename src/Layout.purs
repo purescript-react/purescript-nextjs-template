@@ -12,5 +12,4 @@ mkRootLayout = do
   pure $ \{ children } -> R.html {}
     [ R.head { lang: "en" } React.empty
     , R.body {} children
-
     ]

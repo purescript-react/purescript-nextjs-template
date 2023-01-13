@@ -1,2 +1,3 @@
-import { mkPage } from "../output/Page/index";
-export default mkPage();
+'use client'
+import { mkPage } from '../output/Page/index'
+export default mkPage()
