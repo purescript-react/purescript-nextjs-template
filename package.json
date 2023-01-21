@@ -4,9 +4,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run build:spago && npm run build:next",
+    "build:spago": "spago build",
+    "build:next": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "spago test"
   },
   "dependencies": {
     "@next/font": "13.1.2",
@@ -15,5 +18,9 @@
     "next": "13.1.2",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "purescript": "0.15.6",
+    "spago": "0.20.9"
   }
 }
