@@ -10,6 +10,8 @@ Create a project using this template:
 npx create-next-app -e https://github.com/rowtype-yoga/purescript-nextjs-template
 ```
 
+Then `cd` into the directory that it created for you.
+
 Install dependencies:
 
 ```shell
